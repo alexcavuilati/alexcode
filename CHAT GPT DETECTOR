@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ChatGPT DETECTION (CGPTD) by Alex Cavuilati</title>
+    <style>
+      .file-upload-field {
+        width: 500px;
+        height: 50px;
+        border-radius: 10px;
+        border: 2px solid black;
+        font-size: 16px;
+        padding: 10px;
+        margin-top: 20px;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+
+      .file-upload-field input[type="file"] {
+        display: none;
+      }
+
+      .file-upload-field label {
+        background-color: red;
+        color: white;
+        padding: 10px 20px;
+        border-radius: 10px;
+        cursor: pointer;
+      }
+
+      .text-field {
+        width: 500px;
+        height: 200px;
+        border-radius: 10px;
+        border: 2px solid black;
+        font-size: 16px;
+        padding: 20px;
+        margin-top: 20px;
+        overflow: auto;
+        background-color: white;
+      }
+
+      .output-field {
+        width: 500px;
+        margin-top: 20px;
+        background-color: white;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>👋 ChatGPT DETECTION (CGPTD)-By Alex Cavuilati</h1>
+    <div class="file-upload-field">
+      <input type="file" id="file-input" />
+      <label for="file-input">Upload File</label>
+    </div>
+
+    <div class="text-field">
+      <textarea id="text-input"></textarea>
+    </div>
+    <form action="your_processing_function.php" method="post" enctype="multipart/form-data">
+        <input type="submit" value="Submit File" name="submit">
+    </form>
+
+    <div class="output-field">
+      <p id="output">The output will appear here.</p>
+    </div>
+
+    <h1>Copyright (c) 2023 Alekesio Cavuilati (https://codepen.io/alex-cavuilati/pen/vYaJWpV)
+
+    Permission is hereby granted, with $3000USD, to any person obtaining a copy
+    of this software and associated documentation files (the "Software"), to deal
+    in the Software without restriction, including without limitation the rights
+    to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+    copies of the Software, and to permit persons to whom the Software is
+    furnished to do so, subject to the following conditions:
+
+    The above copyright notice and this permission notice shall be included in all
+    copies or substantial portions of the Software.
+
+    <h1>THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY
